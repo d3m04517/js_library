@@ -1,5 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Special+Elite&display=swap');
+
+:root {
+    --font-theme: "Roboto, sans-serif";
+}
+
 * {
     padding: 0;
     margin: 0;
 }
 
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inline;    
+}
+
+.container {
+    width: 100vm;
+    height: 100vm;
+    
+}
+
+#modal {
+    position: absolute;
+    padding: 2%;
+    width: 200px;
+    height: 250px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    box-shadow: 3px 2px 2px 2px lightgray;
+}
+
+.form  {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    font-family: var(--font-theme);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form legend {
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.button {
+    bottom: 0;
+    padding: 4%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+
+.form-button {
+
+}
