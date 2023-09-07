@@ -70,6 +70,7 @@ function createCard(book) {
         removeBook(index);
     });
     card.appendChild(button);
+    
 }
 
 function removeBook(index) {
